@@ -295,7 +295,52 @@
     </nav>
 
     <!-- main -->
-    <main class="main"></main>
+    <main class="main">
+      <!-- head -->
+      <div class="head">
+        <div class="head__search">
+          <label for="" class="search">
+            <input type="text" placeholder="Search here..." max="50" min="2" />
+            <img src="./icons/main/search.svg" alt="search" />
+          </label>
+        </div>
+        <div class="head__notification">
+          <button class="notification">
+            <img src="./icons/main/notification.svg" alt="notification" />
+          </button>
+          <button class="chat">
+            <img src="./icons/main/chat.svg" alt="chat" />
+          </button>
+        </div>
+        <div class="head__wlist">
+          <button class="wlist">
+            <img src="./icons/main/watch-list.svg" alt="Watch list" />
+            <span>Watch list</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- banner -->
+      <div class="banner">
+        <img src="./image/bg.jpg" alt="Banner" />
+      </div>
+
+      <!-- stream -->
+      <div class="stream">
+        <div class="stream__head">
+          <div class="stream__title mtitle">Streaming</div>
+          <div class="stream__filter">
+            <select class="filter" name="Filter" id="filter">
+              <option value="Anime">Anime Series</option>
+              <option value="Movie">Movie Series</option>
+              <option value="Anime">Anime</option>
+            </select>
+            <img src="./icons/main/arrow.svg" alt="Arrow" />
+          </div>
+        </div>
+        <div class="stream__list"></div>
+      </div>
+    </main>
 
     <!-- aside -->
     <aside class="aside">
@@ -351,6 +396,83 @@
           <img src="./image/streamers/3.png" alt="Streamer" />
           <img src="./image/streamers/4.png" alt="Streamer" />
           <img src="./image/streamers/5.png" alt="Streamer" />
+        </div>
+      </div>
+
+      <!-- friends -->
+      <div class="friends">
+        <div class="friends__head">
+          <div class="friends__title aside-title">Friends</div>
+        </div>
+
+        <div class="friends__list">
+          <div class="friends__item">
+            <div class="fitem__l">
+              <div class="fitem__img">
+                <img src="./image/friends/1.png" alt="Image" />
+              </div>
+              <div class="fitem__info">
+                <div class="fitem__name">Fola Dayo</div>
+                <div class="fitem__foll">Followed by 25k</div>
+              </div>
+            </div>
+            <div class="fitem_r">
+              <button class="fitem__button">
+                <img src="./icons/profile/settings.svg" alt="settings" />
+              </button>
+            </div>
+          </div>
+
+          <div class="friends__item">
+            <div class="fitem__l">
+              <div class="fitem__img">
+                <img src="./image/friends/2.png" alt="Image" />
+              </div>
+              <div class="fitem__info">
+                <div class="fitem__name">Fola Dayo</div>
+                <div class="fitem__foll">Followed by 25k</div>
+              </div>
+            </div>
+            <div class="fitem_r">
+              <button class="fitem__button">
+                <img src="./icons/profile/settings.svg" alt="settings" />
+              </button>
+            </div>
+          </div>
+
+          <div class="friends__item">
+            <div class="fitem__l">
+              <div class="fitem__img">
+                <img src="./image/friends/3.png" alt="Image" />
+              </div>
+              <div class="fitem__info">
+                <div class="fitem__name">Fola Dayo</div>
+                <div class="fitem__foll">Followed by 25k</div>
+              </div>
+            </div>
+            <div class="fitem_r">
+              <button class="fitem__button">
+                <img src="./icons/profile/settings.svg" alt="settings" />
+              </button>
+            </div>
+          </div>
+
+          <div class="friends__item">
+            <div class="fitem__l">
+              <div class="fitem__img">
+                <img src="./image/friends/4.png" alt="Image" />
+              </div>
+              <div class="fitem__info">
+                <div class="fitem__name">Fola Dayo</div>
+                <div class="fitem__foll">Followed by 25k</div>
+              </div>
+            </div>
+            <div class="fitem_r">
+              <button class="fitem__button">
+                <img src="./icons/profile/settings.svg" alt="settings" />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </aside>
